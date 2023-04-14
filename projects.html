@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="proj-styling.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Homepage</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+            </ul>
+        </nav>
+      <input type="text" id="filter-input" placeholder="Enter technology here">
+    </header>
+    <main>
+      <section>
+        <section>
+            <h3><u>Final Year Project</u></h3>
+            <ul id="final-projects">
+              <li class="project" data-tech="react react.js js javascript python tensorflow keras pandas matplotlib seaborn"><b>AI-Enabled Smart Agricultural System:</b>
+                    <ul>
+                        <li>It is a cloud hosted SaaS that helps identify and report plant diseases to clients through a React.js based website exposing an API. Client can upload pictures and receive insight from our AI model.</li>
+                        <li>Keras & Tensorflow, Pandas libraries used to develop models, algorithms .etc.</li>
+                        <li>Matplotlib, Seaborn, Pandas use for data visualization(confusion matrix, accuracy graph .etc.)</li>
+                        <li>Back propagation used for iterative best model training through transferred learning with VGG19, AlexNet & GoogleNet</li>
+                        <li>PlantVillage dataset from Kaggle with 38 classes (healthy and diseasedplantclassification).</li>
+                        <li>We are doing dataset collection for local plants.</li>
+                        <li>From 67% to 89% prediction accuracy achieved.</li>
+                        <li>K-means algorithm based anomaly detection.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <h3><u>Semester and Personal Projects</u></h3>
+        <ul id="semester-projects">
+          <li class="project" data-tech="c# react.js react javascript js rest api ms sql"><b>BlackBox: Secure File Storage and Sharing:</b>
+            <ul>
+                <li>Implemented a fully encrypted secure server storage system for file upload and download. Files are stored with AES256algorithm encryption using a randomly generated unique key for each user.</li>
+                <li>React.js functional components used for a reusable and responsive UI and for API calling.</li>
+                <li>C# ASP.NET Core based backend with the Dependency Injection pattern to provide API endpoints for operating on MicrosoftSQL Server database. Entity Framework Core used to serve as O/RM.</li>
+                <li>API gateway implemented with Ocelot to expose REST API based microservices to client.</li>
+                <li>Password Hashing with HMAC algorithm & JWT Tokens for API auth and session maintenance.</li>
+            </ul>
+            </li>
+
+            <li class="project" data-tech="react.js react js javascript php uml srs sds"><b>Business ERP & Management System:</b>
+            <ul>
+                <li>Complete IEEE format Software Requirement Specification (SRS) documentation created.</li>
+                <li>UML Modeling on Eclipse/Papyrus to define the complete set of features for Software Design Specification (SDS)</li>
+                <li>Matplotlib, Seaborn, Pandas use for data visualization(confusion matrix, accuracy graph .etc.)</li>
+                <li>Backend implemented with PHP, JS, jQuery linked with MySQL database.</li>
+                <li>Frontend created with HTML, CSS3, React.js and MUI.</li>
+                <li>Animations created with Framer motion.</li>
+            </ul>
+            </li>
+
+            <li class="project" data-tech="java swing mvc"><b>Open World 2D Fighter:</b>
+            <ul>
+                <li>Open world 2D fighter game in pure Java and GUI with Java Swing.</li>
+                <li>Reflex-agent enemies.</li>
+                <li>MVC Design Pattern implementation for game.</li>
+            </ul>
+            </li>
+
+            <li class="project" data-tech="c++"><b>Machine Learning Library From Scratch:</b>
+            <ul>
+                <li>ML models (Linear Regression, Logistic Regression, Decision Tree & KNN) implemented to develop a C++ library for easy use.</li>
+            </ul>
+            </li>
+
+            <li class="project" data-tech="unity 3d c#"><b>Bomberman 3D Reimagination:</b>
+            <ul>
+                <li>Recreated the classic 2D Bomberman in Unity 3D framework with use of C# with OOP principles.</li>
+                <li>Bombs used to destroy breakable objects in the environment.</li>
+                <li>AI based enemies using Unity 3D Navmesh to chase player.</li>
+            </ul>
+            </li>
+
+            <li class="project" data-tech="c++"><b>Keyword Recognition Chat Bot:</b>
+            <ul>
+                <li>Created a dictionary within C++ using switch and filing.</li>
+                <li>Keyword search predicts action to be performed such aswindows directory searching, external application and internet access, holding conversation, etc.</li>
+            </ul>
+            </li>
+
+            <li class="project" data-tech="python pyqt5"><b>Wireshark Like Basic Packet Sniffer:</b>
+            <ul>
+                <li>Captures frames on LAN and filters protocols on different OSI layers to unpack frames and get packet information through socket connection.</li>
+                <li>Developed in Python and PyQT5 for UI</li>
+            </ul>
+            </li>
+        </ul>
+      </section>
+    </main>
+    <br>
+    <footer>
+        <p><b>©2023 Syed Baqar Ali Zaidi</b></p>
+    </footer>
+    
+    <script src="filter-search.js"></script>
+  </body>
+</html>
